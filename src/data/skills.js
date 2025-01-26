@@ -1,0 +1,16 @@
+export const skills = [
+  { name: "HTML", icon: "./icons/html-5-icon.svg" },
+  { name: "CSS", icon: "./icons/css-3-icon.svg" },
+  { name: "JavaScript", icon: "./icons/javascript-icon.svg" },
+  { name: "TypeScript", icon: "./icons/typescript-icon.svg" },
+  { name: "PHP", icon: "./icons/php-icon.svg" },
+  { name: "React", icon: "./icons/react-icon.svg" },
+  { name: "Next.js", icon: "./icons/nextjs-icon.svg" },
+  { name: "Tailwind CSS", icon: "./icons/tailwind-icon.svg" },
+  { name: "Git", icon: "./icons/git-icon.svg" },
+  { name: "GitHub", icon: "./icons/github-icon.svg" },
+  { name: "Python", icon: "./icons/python-icon.svg" },
+  { name: "Java", icon: "./icons/java-icon.svg" },
+  { name: "C++", icon: "./icons/cpp3-icon.svg" },
+  { name: "MySQL", icon: "./icons/mysql-icon.svg" },
+];
