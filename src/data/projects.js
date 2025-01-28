@@ -28,12 +28,12 @@ export const projects = [
   },
   {
     id: "3",
-    title: "E-Shop",
+    title: "E-Commerce-shop",
     thumbnail: "projects/e-shop.png",
     description:
       "This is a simple E-Shop website. Where users can search, filter, add to cart, add to wishlist and buy their required products.",
-    live: "https://e-shopping-by-hussain.netlify.app/",
-    repo: "https://github.com/hussain-ahmed2/e-shopping",
+    live: "https://e-commerce-shop-by-hussain.netlify.app/",
+    repo: "https://github.com/hussain-ahmed2/e-commerce-app",
   },
   {
     id: "4",
