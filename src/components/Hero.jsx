@@ -65,7 +65,7 @@ const Hero = () => {
         <div className="flex flex-wrap gap-4 max-md:justify-center">
           <div className="hero-button">
             <a
-              href="/path-to-cv.pdf"
+              href="/resume.pdf"
               download="Hussain_Ahmed_CV.pdf"
               className="rounded-md bg-teal-950 px-6 py-3 text-white shadow-md transition duration-300 hover:bg-teal-800 hover:ring-2 hover:ring-teal-950"
             >
