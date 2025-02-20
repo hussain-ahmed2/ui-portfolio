@@ -1,5 +1,14 @@
 export const projects = [
   {
+    id: "social-app",
+    title: "Social App",
+    thumbnail: "projects/social-app.png",
+    description:
+      "This is a simple social app. Where users can explore and connect with their friends.",
+    live: "https://social-app-by-hussain.netlify.app/",
+    repo: "https://github.com/hussain-ahmed2/social-app",
+  },
+  {
     id: "music-academy",
     title: "Music Academy",
     thumbnail: "projects/music-academy.png",

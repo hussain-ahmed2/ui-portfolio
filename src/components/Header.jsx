@@ -54,7 +54,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header ref={headerRef} className="fixed z-50 w-full">
+    <header ref={headerRef} className="fixed z-50 w-full top-0 left-0 right-0">
       <nav className="navbar mx-auto mt-2 flex gap-px w-fit justify-center overflow-hidden rounded-lg border bg-neutral-950 p-1">
         <a
           className={`nav-link rounded px-4 py-2 font-medium transition-colors duration-300 active:bg-neutral-800 md:hover:bg-neutral-800 ${acitveLinkId === "home" ? "bg-neutral-900" : ""}`}

@@ -2,6 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef } from "react";
+import Spotlight from "./Spotlight";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -46,8 +47,11 @@ const Hero = () => {
     <section
       id="home"
       ref={heroRef}
-      className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden pt-16 pb-8 md:flex-row max-w-7xl mx-auto"
+      className="relative mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center overflow-hidden pb-8 pt-16 md:flex-row"
     >
+      <div className="fixed w-full h-full z-0">
+        <Spotlight />
+      </div>
       <div className="md:w-1/2">
         <img
           className="hero-image mx-auto w-full max-w-72 rounded-full bg-stone-800 md:max-w-96"
@@ -60,7 +64,8 @@ const Hero = () => {
           Hi, I{"'"}m <span className="text-teal-900">Hussain</span> Ahmed
         </h1>
         <p className="hero-text mb-6 me-auto max-w-2xl text-justify md:mb-8 md:text-lg">
-           A <span className="text-teal-900">Front-End Web Developer</span> creating seamless digital experiences.
+          A <span className="text-teal-900">Front-End Web Developer</span>{" "}
+          creating seamless digital experiences.
         </p>
         <div className="flex flex-wrap gap-4 max-md:justify-center">
           <div className="hero-button">

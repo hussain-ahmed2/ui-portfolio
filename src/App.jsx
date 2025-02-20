@@ -1,4 +1,5 @@
 import About from "./components/About";
+import BgBars from "./components/BgBars";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -7,7 +8,8 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <>
+    <div className="overflow-hidden">
+      <BgBars />
       <Header />
       <div className="max-w-7xl mx-auto">
         <Hero />
@@ -16,7 +18,7 @@ function App() {
         <Contact />
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
